@@ -8,7 +8,7 @@ export const products = [
         price: 55,
         image: "/assets/images/products/printed-laminated.jpg",
         shortDescription: "Premium high-gloss laminated boxes with vibrant offset printing.",
-        description: "Elevate your brand with our premium laminated corrugated boxes. Features a high-gloss finish that protects against moisture while providing a stunning visual appeal for retail and gift packaging.",
+        description: "Our premium laminated corrugated boxes feature a high-gloss finish that protects against moisture while providing a stunning visual appeal. These are pure, high-quality boxes designed for high-end retail and gift packaging.",
         dimensions: { length: 25, width: 25, height: 25 },
         specifications: {
             boardGrade: "Double Wall 5 Ply",
@@ -37,7 +37,7 @@ export const products = [
         price: 20,
         image: "/assets/images/products/7ply-printed.jpg",
         shortDescription: "Heavy-duty triple-wall 7-ply boxes for maximum industrial protection.",
-        description: "Our 7-ply boxes are engineered for the most demanding industrial requirements. Triple-wall construction provides extreme stacking strength, making them ideal for heavy machinery and international exports.",
+        description: "Engineered for extreme strength, this 7-ply box features triple-wall construction. It is strictly designed for heavy industrial use, machinery parts, and export shipping where maximum protection is required.",
         dimensions: { length: 45, width: 35, height: 35 },
         specifications: {
             boardGrade: "Triple Wall 7 Ply",
@@ -65,8 +65,8 @@ export const products = [
         category: "Printed",
         price: 15,
         image: "/assets/images/products/3ply-printed.jpg",
-        shortDescription: "Cost-effective 3-ply boxes optimized for e-commerce and retail.",
-        description: "Perfect for lightweight shipping, our 3-ply printed boxes offer a balance of protection and speed. Specifically designed for high-volume e-commerce businesses needing consistent branding.",
+        shortDescription: "3-ply boxes optimized for e-commerce and retail shipping.",
+        description: "Perfect for lightweight shipping, these 3-ply boxes offer professional branding with recycled, eco-friendly cardboard. Ideal for high-volume e-commerce businesses needing a clean look.",
         dimensions: { length: 20, width: 15, height: 10 },
         specifications: {
             boardGrade: "Single Wall 3 Ply",
@@ -95,7 +95,7 @@ export const products = [
         price: 35,
         image: "/assets/images/products/cardboard-printed.jpg",
         shortDescription: "High-finish cardboard boxes with custom branding.",
-        description: "Our printed cardboard boxes are designed to be a extension of your marketing. With crisp edge-to-edge printing, these boxes ensure your product stands out the moment it arrives at the customer's door.",
+        description: "Professional printed cardboard boxes featuring crisp edge-to-edge branding. These boxes are designed to elevate your brand presence during the unboxing experience.",
         dimensions: { length: 30, width: 22, height: 18 },
         specifications: {
             boardGrade: "Double Wall 5 Ply",
@@ -126,7 +126,7 @@ export const products = [
         price: 20,
         image: "/assets/images/products/5ply-plain.jpg",
         shortDescription: "Industrial-grade 5-ply boxes for safe warehousing.",
-        description: "Standard industrial boxes providing superior protection for medium-weight goods. Our 5-ply natural brown boxes are a staples in warehouses across India for their reliability and stacking strength.",
+        description: "Our standard 5-ply boxes provide superior protection for medium-weight goods. These are pure brown corrugated boxes with high stacking strength and tear-resistant edges.",
         dimensions: { length: 40, width: 30, height: 30 },
         specifications: {
             boardGrade: "Double Wall 5 Ply",
@@ -155,7 +155,7 @@ export const products = [
         price: 28,
         image: "/assets/images/products/rectangular-brown.jpg",
         shortDescription: "Standard brown boxes for everyday storage needs.",
-        description: "Versatile rectangular boxes for general storage and distribution. Made from high-quality natural kraft paper, these boxes offer high friction for stable stacking during transit.",
+        description: "Versatile rectangular boxes made from high-quality natural kraft paper. These boxes offer a clean, professional look for storage, archiving, and light shipping.",
         dimensions: { length: 45, width: 25, height: 20 },
         specifications: {
             boardGrade: "Single Wall 3 Ply",
@@ -184,7 +184,7 @@ export const products = [
         price: 12,
         image: "/assets/images/products/vegetable-box.jpg",
         shortDescription: "Ventilated trays for fresh agricultural transport.",
-        description: "Specifically designed for the agriculture sector, these ventilated 3-ply trays allow for air circulation, preventing moisture buildup and keeping produce fresh from farm to market.",
+        description: "Specially designed ventilated trays for the agriculture sector. These corrugated boxes allow for air circulation to keep produce fresh during transit from farm to market.",
         dimensions: { length: 40, width: 30, height: 15 },
         specifications: {
             boardGrade: "Single Wall 3 Ply",
@@ -215,7 +215,7 @@ export const products = [
         price: 8,
         image: "/assets/images/products/mono-carton.jpg",
         shortDescription: "Thin, premium finish cartons for primary packaging.",
-        description: "Precision-engineered mono cartons for the pharmaceutical and cosmetic industries. Features clean die-cutting and high-end surface finishes for a professional retail presentation.",
+        description: "Clean, high-finish mono cartons for pharmaceutical and cosmetic products. These are precision-engineered boxes with sharp edges and premium retail presentation.",
         dimensions: { length: 12, width: 8, height: 4 },
         specifications: {
             type: "Duplex / FBB Board",
@@ -243,8 +243,8 @@ export const products = [
         category: "Specialty",
         price: 18,
         image: "/assets/images/products/craft-box.jpg",
-        shortDescription: "Sustainable rustic craft paper boxes for eco-conscious brands.",
-        description: "Capture an organic feel with our kraft packaging boxes. Made from 100% unbleached natural fibers, these boxes are perfect for brands prioritizing sustainability and a 'handmade' aesthetic.",
+        shortDescription: "Sustainable rustic craft paper boxes.",
+        description: "Our craft packaging boxes provide a raw, organic feel. Made from 100% natural fibers, these boxes are strictly product-focused for eco-conscious brands.",
         dimensions: { length: 15, width: 15, height: 15 },
         specifications: {
             material: "Natural Unbleached Craft",
@@ -272,8 +272,8 @@ export const products = [
         category: "Specialty",
         price: 45,
         image: "/assets/images/products/wine-box.jpg",
-        shortDescription: "Secure bottle shippers with internal protective dividers.",
-        description: "Engineered for the safest transport of glass bottles. Our wine boxes feature a scoring-sheet partition system that locks each bottle in place, minimizing the risk of breakage during shipping.",
+        shortDescription: "Secure bottle shippers with protective dividers.",
+        description: "Professional wine bottle boxes features internal protective dividers. These boxes are strictly engineered to prevent breakage during glass bottle transportation.",
         dimensions: { length: 35, width: 25, height: 35 },
         specifications: {
             boardGrade: "Double Wall 5 Ply",
