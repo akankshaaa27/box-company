@@ -61,7 +61,7 @@ const Home = () => {
                         initial={{ opacity: 0, x: -50 }}
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.8 }}
-                        className="max-w-2xl text-white"
+                        className=" "
                     >
                         <span className="inline-block bg-secondary px-4 py-1 rounded-full text-xs font-bold uppercase tracking-[0.2em] mb-6">
                             Industrial Packaging Experts
@@ -158,7 +158,12 @@ const Home = () => {
             {/* Featured Products */}
             <section className="py-24 bg-industrial-light overflow-hidden">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <motion.div {...fadeInUp}>
+                    <motion.div {...fadeInUp} className="text-center mb-12">
+                        <img
+                            src="/assets/images/products/craft-box.jpg"
+                            alt="Premium Packaging"
+                            className="w-full max-w-4xl mx-auto h-[400px] object-cover rounded-[3rem] shadow-2xl mb-12"
+                        />
                         <h2 className="section-title">Our Premium Product Line</h2>
                         <p className="section-subtitle">
                             We offer a wide range of corrugated solutions tailored to various industries,
