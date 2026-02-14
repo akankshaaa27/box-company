@@ -135,7 +135,13 @@ const ProductDetail = () => {
                             <div className="inline-block bg-secondary/10 text-secondary text-xs font-black px-4 py-1.5 rounded-full uppercase tracking-widest mb-4">
                                 {product.category}
                             </div>
-                            <h1 className="text-4xl md:text-5xl font-black text-gray-900 mb-6">{product.name}</h1>
+                            <h1 className="text-4xl md:text-5xl font-black text-gray-900 mb-2">{product.name}</h1>
+                            {product.price && (
+                                <p className="text-2xl font-black text-primary mb-8 flex items-center">
+                                    ₹{product.price}
+                                    <span className="text-sm text-gray-400 font-medium lowercase ml-2">Starting price / piece</span>
+                                </p>
+                            )}
                             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
                                 {product.description}
                             </p>

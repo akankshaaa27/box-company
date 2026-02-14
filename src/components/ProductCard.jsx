@@ -21,9 +21,14 @@ const ProductCard = ({ product }) => {
             </div>
 
             <div className="p-6 flex flex-col flex-grow">
-                <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-primary transition-colors">
+                <h3 className="text-xl font-bold text-gray-900 mb-1 group-hover:text-primary transition-colors">
                     {product.name}
                 </h3>
+                {product.price && (
+                    <p className="text-primary font-black text-lg mb-3">
+                        ₹{product.price}<span className="text-xs text-gray-400 font-medium lowercase"> / piece</span>
+                    </p>
+                )}
                 <p className="text-gray-600 text-sm mb-6 line-clamp-3">
                     {product.shortDescription}
                 </p>
