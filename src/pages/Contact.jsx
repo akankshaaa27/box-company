@@ -19,23 +19,23 @@ const Contact = () => {
         {
             icon: <Phone className="w-6 h-6" />,
             title: "Call Us",
-            info: "+91 123 456 7890",
-            sub: "Mon - Sat, 9am - 6pm",
-            link: "tel:+911234567890"
+            info: "+91 7971458727",
+            sub: "Mon - Sat, 9am - 7pm",
+            link: "tel:+917971458727"
         },
         {
             icon: <Mail className="w-6 h-6" />,
             title: "Email Us",
-            info: "sales@tade-packaging.com",
+            info: "info@tadepackaging.com",
             sub: "Quick response within 24h",
-            link: "mailto:sales@tade-packaging.com"
+            link: "mailto:info@tadepackaging.com"
         },
         {
             icon: <MessageCircle className="w-6 h-6" />,
             title: "WhatsApp",
-            info: "+91 987 654 3210",
-            sub: "Instant technical support",
-            link: "https://wa.me/919876543210"
+            info: "+91 8046076823",
+            sub: "91% Response Rate",
+            link: "https://wa.me/918046076823"
         }
     ];
 
@@ -107,9 +107,9 @@ const Contact = () => {
                                     <div>
                                         <h5 className="text-lg font-bold mb-2">Corporate Office & Warehouse</h5>
                                         <p className="text-gray-600 leading-relaxed font-medium">
-                                            Plot No. 45, MIDC Phase 2,<br />
-                                            Hinjewadi IT Park, Pune,<br />
-                                            Maharashtra 411057, India
+                                            Zone 6, Gat No 232, Near Classic Coach AP,<br />
+                                            Shindewadi, Pune - 412205,<br />
+                                            Maharashtra, India
                                         </p>
                                     </div>
                                 </div>

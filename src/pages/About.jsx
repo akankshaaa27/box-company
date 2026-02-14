@@ -48,21 +48,16 @@ const About = () => {
                             <h2 className="text-3xl font-bold mb-6 text-gray-900 border-l-4 border-secondary pl-6">Company Overview</h2>
                             <div className="space-y-6 text-gray-600 text-lg leading-relaxed">
                                 <p>
-                                    Established in 1998, Tade Packaging started with a simple goal: to provide high-quality
-                                    packaging that industrial clients could rely on. Today, we are one of the most
-                                    technologically advanced corrugated box manufacturers in the region.
+                                    Tade Packaging is a Pune, Maharashtra headquartered company. Established in 1998, we are a leading manufacturer and supplier of Plain and Printed Corrugated Boxes. Our facility is engineered to provide high-quality packaging that industrial clients can rely on.
                                 </p>
                                 <p>
-                                    Our Pune-based facility spans over 50,000 sq. ft. and is equipped with fully
-                                    automated corrugation lines, multi-color flexo printers, and high-precision
-                                    die-cutting machines. We process over 1,500 tons of Kraft paper monthly, serving
-                                    industries ranging from automotive to FMCG.
+                                    Our state-of-the-art facility in Pune is equipped with the finest machinery for the production of corrugated boxes, including fully automated corrugation lines and multi-color high-speed flexo printers. We have a team of highly expert professionals who work with dedication to create premium quality embedded packaging solutions.
                                 </p>
                             </div>
                         </motion.div>
                         <motion.div {...fadeInUp} className="relative">
                             <img
-                                src="https://images.unsplash.com/photo-1530124560676-4ae822479713?q=80&w=1000&auto=format&fit=crop"
+                                src="https://images.unsplash.com/photo-1580674285054-bed31e145f59?q=80&w=1000&auto=format&fit=crop"
                                 alt="Our Facility"
                                 className="rounded-3xl shadow-2xl"
                             />

@@ -6,7 +6,7 @@ export const products = [
         slug: "printed-laminated-corrugated-box",
         category: "Printed",
         price: 55,
-        image: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=800&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1607344645866-009c320c5ab8?q=80&w=800&auto=format&fit=crop",
         shortDescription: "Premium laminated boxes with high-quality printing.",
         description: "Innovative and visually appealing, our printed laminated corrugated boxes are perfect for high-end retail and gift packaging. Featuring double wall 5-ply construction for superior protection.",
         dimensions: { length: 25, width: 25, height: 25 },
@@ -64,7 +64,7 @@ export const products = [
         slug: "3-ply-printed-corrugated-box",
         category: "Printed",
         price: 15,
-        image: "https://images.unsplash.com/photo-1513201099705-a9746e1e201f?q=80&w=800&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1549462980-6a034298e8f5?q=80&w=800&auto=format&fit=crop",
         shortDescription: "Lightweight and cost-effective printed boxes.",
         description: "Our 3-ply boxes are the perfect solution for lightweight shipping needs. Custom printing ensures your brand stays visible throughout the delivery process.",
         dimensions: { length: 20, width: 15, height: 10 },
@@ -89,31 +89,31 @@ export const products = [
     },
     {
         id: 4,
-        name: "Brown Corrugated Paper Packaging Box",
-        slug: "brown-corrugated-paper-packaging-box",
+        name: "Cardboard Printed Corrugated Box",
+        slug: "cardboard-printed-corrugated-box",
         category: "Printed",
-        price: 25,
-        image: "https://images.unsplash.com/photo-1591123120675-6f7f1aae0e5b?q=80&w=800&auto=format&fit=crop",
-        shortDescription: "Standard brown boxes for diverse packaging needs.",
-        description: "Versatile and reliable, these brown paper packaging boxes are suitable for a wide range of industrial and commercial applications. High-quality kraft paper ensures protection.",
-        dimensions: { length: 30, width: 25, height: 20 },
+        price: 35,
+        image: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=800&auto=format&fit=crop",
+        shortDescription: "Vibrant printed cardboard boxes for retail.",
+        description: "High-quality cardboard construction paired with precision printing. These boxes are designed to elevate your brand presence on the shelf while providing reliable structural support.",
+        dimensions: { length: 30, width: 22, height: 18 },
         specifications: {
             boardGrade: "Double Wall 5 Ply",
-            style: "Universal",
-            material: "Recycled Kraft",
-            finish: "Natural Brown"
+            printing: "Full Color Offset",
+            material: "High-Grade Test Liner",
+            finish: "Varnish / Aqueous Coating"
         },
         features: [
-            "100% Recyclable",
-            "Sturdy construction",
-            "Available in bulk",
-            "Secure locking"
+            "Photorealistic printing",
+            "Rigid cardboard structure",
+            "Wide customization range",
+            "Easy folding design"
         ],
         applications: [
-            "Storage & Moving",
-            "Logistics",
-            "FMCG products",
-            "Office supplies"
+            "Consumer goods",
+            "Footwear",
+            "Pharma packaging",
+            "Tech accessories"
         ]
     },
 
@@ -124,7 +124,7 @@ export const products = [
         slug: "double-wall-5-ply-corrugated-box",
         category: "Plain",
         price: 20,
-        image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=800&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1586864387917-f729a50226b3?q=80&w=800&auto=format&fit=crop",
         shortDescription: "Strong double-walled boxes for safe transit.",
         description: "Our plain 5-ply boxes provide an extra layer of protection, making them ideal for shipping goods that require more than just a standard box. High stacking strength for warehouse efficiency.",
         dimensions: { length: 40, width: 30, height: 30 },
@@ -149,151 +149,151 @@ export const products = [
     },
     {
         id: 6,
-        name: "Plain Corrugated Carton Box",
-        slug: "plain-corrugated-carton-box",
+        name: "Rectangular Brown Corrugated Box",
+        slug: "rectangular-brown-corrugated-box",
         category: "Plain",
-        price: 45,
-        image: "https://images.unsplash.com/photo-1599700403969-fbc08c287410?q=80&w=800&auto=format&fit=crop",
-        shortDescription: "Simple and reliable plain carton boxes.",
-        description: "Perfect for everyday shipping and storage. These plain cartons are easy to label and seal, providing a professional look at an affordable price.",
-        dimensions: { length: 50, width: 40, height: 40 },
+        price: 28,
+        image: "https://images.unsplash.com/photo-1595079831694-8ce69f826317?q=80&w=800&auto=format&fit=crop",
+        shortDescription: "Standard rectangular boxes for general purpose.",
+        description: "A staple in the packaging industry, our rectangular brown boxes are optimized for shipping efficiency and space management during logistics.",
+        dimensions: { length: 45, width: 25, height: 20 },
         specifications: {
             boardGrade: "Single Wall 3 Ply",
-            style: "Square",
-            material: "Kraft Liner",
+            style: "Box with Lid",
+            material: "Natural Kraft Liner",
             recyclability: "100%"
         },
         features: [
-            "Lightweight design",
-            "Fast assembly",
-            "Space-saving storage",
-            "Reliable protection"
+            "Universal utility",
+            "Tear resistant kraft",
+            "Secure edge protection",
+            "Standard pallet size"
         ],
         applications: [
-            "Clothing & Apparel",
-            "Books & Media",
-            "Toys & Games",
-            "Small housewares"
+            "Office archiving",
+            "Product storage",
+            "Logistics shipping",
+            "Retail stock"
         ]
     },
     {
         id: 7,
-        name: "Heavy Duty Corrugated Box",
-        slug: "heavy-duty-corrugated-box",
+        name: "Single Wall 3 Ply Vegetable Box",
+        slug: "single-wall-3-ply-vegetable-box",
         category: "Plain",
-        price: 200,
-        image: "https://images.unsplash.com/photo-1530124560676-4ae822479713?q=80&w=800&auto=format&fit=crop",
-        shortDescription: "Ultra-strong boxes for palletized shipping.",
-        description: "Designed for the toughest shipping environments. These heavy-duty boxes are built to handle significant weight and stacking pressure, perfect for palletized transport.",
-        dimensions: { length: 120, width: 100, height: 80 },
+        price: 12,
+        image: "https://images.unsplash.com/photo-1610348725531-843dff563e2c?q=80&w=800&auto=format&fit=crop",
+        shortDescription: "Ventilated boxes for fresh agricultural produce.",
+        description: "Lightweight and breathable, these 3-ply boxes are specifically designed for the agriculture industry to maintain produce freshness during transport.",
+        dimensions: { length: 40, width: 30, height: 15 },
         specifications: {
-            boardGrade: "Triple Wall 7 Ply",
-            loadCapacity: "Up to 300kg",
-            material: "High GSM Kraft",
-            certification: "Export Grade"
+            boardGrade: "Single Wall 3 Ply",
+            style: "Ventilated Tray",
+            material: "Food-Grade Liner",
+            strength: "Wet Strength Adhesive"
         },
         features: [
-            "Pallet-sized design",
-            "Extreme durability",
-            "Reinforced walls",
-            "Moisture protection"
+            "Airflow ventilation holes",
+            "Stack-safe corners",
+            "Safe for direct food contact",
+            "Rapid assembly"
         ],
         applications: [
-            "Bulk Chemicals",
-            "Auto Components",
-            "Machinery Export",
-            "Raw materials"
+            "Fresh Vegetables",
+            "Fruits Export",
+            "Greenhouse produce",
+            "Farmer markets"
         ]
     },
 
-    // Sheets & Specialty
+    // Specialty & Specialty
     {
         id: 8,
-        name: "Corrugated Packaging Sheet",
-        slug: "corrugated-packaging-sheet",
-        category: "Sheets",
-        price: 36,
-        image: "https://images.unsplash.com/photo-1542618953-27856d2f349c?q=80&w=800&auto=format&fit=crop",
-        shortDescription: "Protective sheets for layering and wrapping.",
-        description: "Our corrugated sheets provide excellent cushioning for flat items or as dividers within larger boxes. Available in various sizes and thicknesses to suit your needs.",
-        dimensions: { length: 100, width: 100, height: 0.5 },
+        name: "Mono Carton Box",
+        slug: "mono-carton-box",
+        category: "Specialty",
+        price: 8,
+        image: "https://images.unsplash.com/photo-1527443195048-ad5340c66d16?q=80&w=800&auto=format&fit=crop",
+        shortDescription: "Thin, high-finish cartons for primary packaging.",
+        description: "Specialized mono cartons for primary product packaging. These are designed with premium finishes and intricate die-cuts for a high-end consumer unboxing experience.",
+        dimensions: { length: 12, width: 8, height: 4 },
         specifications: {
-            type: "2 Ply / 3 Ply Sheet",
-            gsm: "100-300 GSM",
-            material: "Kraft Paper",
-            packaging: "Rolls / Sheets"
+            type: "FBB / Duplex Board",
+            gsm: "250-450 GSM",
+            finish: "UV Coating / Embossing",
+            printing: "Multicolor UV Offset"
         },
         features: [
-            "Flexible protection",
-            "Easy to cut and fold",
-            "Excellent cushioning",
-            "Surface protection"
+            "Intricate die-cutting",
+            "High aesthetic value",
+            "Slim profile",
+            "Luxury finishing options"
         ],
         applications: [
-            "Glassware dividers",
-            "Furniture wrapping",
-            "Floor protection",
-            "Product layering"
+            "Pharma Primary Packaging",
+            "Cosmetic Units",
+            "Personal Care",
+            "Luxury Sweets"
         ]
     },
     {
         id: 9,
-        name: "Wine & Bottle Packaging Box",
-        slug: "wine-bottle-packaging-box",
+        name: "Craft Packaging Box",
+        slug: "craft-packaging-box",
         category: "Specialty",
-        price: 30,
-        image: "https://images.unsplash.com/photo-1595079676339-1534801ad6cf?q=80&w=800&auto=format&fit=crop",
-        shortDescription: "Specialized boxes for glass bottle protection.",
-        description: "Specially designed for the safe transport of wine and other glass bottles. Includes internal dividers to prevent breakage during transit.",
-        dimensions: { length: 10, width: 10, height: 35 },
+        price: 18,
+        image: "https://images.unsplash.com/photo-1563229235-9d324be8f1f7?q=80&w=800&auto=format&fit=crop",
+        shortDescription: "Eco-friendly craft paper boxes for gifts.",
+        description: "Embrace a rustic and organic look with our craft packaging boxes. These are 100% biodegradable and perfect for brands focusing on sustainability and natural products.",
+        dimensions: { length: 15, width: 15, height: 15 },
         specifications: {
-            boardGrade: "Double Wall 5 Ply",
-            type: "Bottle Carrier",
-            dividers: "Included",
-            material: "Reinforced Kraft"
+            material: "Unbleached Craft Paper",
+            style: "Square Box",
+            locking: "Tuck-in",
+            texture: "Organic Fiber Finish"
         },
         features: [
-            "Anti-shock design",
-            "Secure dividers",
-            "Custom printing available",
-            "Moisture absorbent"
+            "100% Biodegradable",
+            "Rustic natural look",
+            "No chemical bleaching",
+            "Compostable"
         ],
         applications: [
-            "Wine & Spirits",
-            "Gourmet oils",
-            "Glass giftware",
-            "Beverage retail"
+            "Organic Skincare",
+            "Handmade Crafts",
+            "Sustainable Fashion",
+            "Eco-gifts"
         ]
     },
     {
         id: 10,
-        name: "Die Cut Printing Boxes",
-        slug: "die-cut-printing-boxes",
+        name: "Wine & Bottle Packaging Box",
+        slug: "wine-bottle-packaging-box",
         category: "Specialty",
-        price: 40,
-        image: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=800&auto=format&fit=crop",
-        shortDescription: "Precision die-cut boxes with custom graphics.",
-        description: "Our die-cut printing boxes offer a unique blend of functionality and aesthetics. Perfect for specialized product packaging that requires a custom shape and vibrant printing.",
-        dimensions: { length: 20, width: 20, height: 10 },
+        price: 45,
+        image: "https://images.unsplash.com/photo-1596464716127-f2a82984de30?q=80&w=800&auto=format&fit=crop",
+        shortDescription: "Secure bottle transport with internal dividers.",
+        description: "Specifically engineered for glass bottle protection. The internal divider system ensures no contact between bottles, preventing breakage during the roughest handling.",
+        dimensions: { length: 35, width: 25, height: 35 },
         specifications: {
-            style: "Custom Die-Cut",
-            printing: "High Definition Offset",
-            material: "Premium Kraft Liner",
-            locking: "Self-Locking"
+            boardGrade: "Double Wall 5 Ply",
+            style: "Partitioned Box",
+            material: "High-Strength Kraft",
+            dividerMaterial: "Scored Sheets"
         },
         features: [
-            "No tape required",
-            "Precision dimensions",
-            "Vibrant graphics",
-            "Unique unboxing"
+            "Breakage prevention system",
+            "Easy carry handles",
+            "Reusable design",
+            "Impact resistant"
         ],
         applications: [
-            "Electronics packaging",
-            "Cosmetic kits",
-            "Subscription boxes",
-            "Promotional gifts"
+            "Wine & Spirits",
+            "Bottled Beverages",
+            "Glass jar sets",
+            "Chemical bottles"
         ]
     }
 ];
 
-export const categories = ["All", "Printed", "Plain", "Sheets", "Specialty"];
+export const categories = ["All", "Printed", "Plain", "Specialty"];

@@ -49,7 +49,7 @@ const Home = () => {
                 {/* Hero Background Image with Overlay */}
                 <div className="absolute inset-0 z-0">
                     <img
-                        src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=2000&auto=format&fit=crop"
+                        src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?q=80&w=2000&auto=format&fit=crop"
                         className="w-full h-full object-cover"
                         alt="Corrugated Box Warehouse"
                     />
@@ -112,7 +112,7 @@ const Home = () => {
                         <motion.div {...fadeInUp} className="relative">
                             <div className="relative rounded-3xl overflow-hidden shadow-2xl">
                                 <img
-                                    src="https://images.unsplash.com/photo-1599700403969-fbc08c287410?q=80&w=1000&auto=format&fit=crop"
+                                    src="https://images.unsplash.com/photo-1595246140625-573b715d11dc?q=80&w=1000&auto=format&fit=crop"
                                     alt="Packaging Factory"
                                     className="w-full h-[500px] object-cover"
                                 />
@@ -134,10 +134,12 @@ const Home = () => {
                             </p>
                             <ul className="space-y-4 mb-10">
                                 {[
-                                    'Advanced 5-color high-speed printing',
-                                    'In-house structural engineering team',
-                                    'FSC certified sustainable materials',
-                                    'Rapid prototyping and small-batch runs'
+                                    'Quality assured products',
+                                    'Trusted & Reliable vendors',
+                                    'Expert engineering team',
+                                    'Modern manufacturing unit',
+                                    'Longer life relationship',
+                                    'Affordable wholesale prices'
                                 ].map((item, i) => (
                                     <li key={i} className="flex items-center space-x-3 font-medium text-gray-700">
                                         <CheckCircle className="text-secondary w-5 h-5 flex-shrink-0" />

@@ -59,15 +59,18 @@ const Footer = () => {
                         <ul className="space-y-4">
                             <li className="flex items-start space-x-3 text-gray-400">
                                 <MapPin className="w-5 h-5 text-secondary shrink-0" />
-                                <span>123 Industrial Estate, Sector 5, <br />Pune, Maharashtra 411001</span>
+                                <span>Zone 6, Gat No 232, Near Classic Coach AP,<br />Shindewadi, Pune - 412205, MH, India</span>
                             </li>
                             <li className="flex items-center space-x-3 text-gray-400">
                                 <Phone className="w-5 h-5 text-secondary shrink-0" />
-                                <a href="tel:+911234567890" className="hover:text-white transition-colors">+91 123 456 7890</a>
+                                <a href="tel:+917971458727" className="hover:text-white transition-colors">+91 7971458727</a>
                             </li>
                             <li className="flex items-center space-x-3 text-gray-400">
                                 <Mail className="w-5 h-5 text-secondary shrink-0" />
-                                <a href="mailto:info@tade-packaging.com" className="hover:text-white transition-colors">info@tade-packaging.com</a>
+                                <a href="mailto:info@tadepackaging.com" className="hover:text-white transition-colors">info@tadepackaging.com</a>
+                            </li>
+                            <li className="pt-2 text-xs font-bold text-gray-500 uppercase tracking-widest">
+                                GST: 27AEBPT3050R1ZJ
                             </li>
                         </ul>
                     </div>
