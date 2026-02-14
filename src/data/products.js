@@ -7,26 +7,26 @@ export const products = [
         category: "Printed",
         price: 55,
         image: "/assets/images/products/printed-laminated.jpg",
-        shortDescription: "Premium laminated boxes with high-quality printing.",
-        description: "Innovative and visually appealing, our printed laminated corrugated boxes are perfect for high-end retail and gift packaging. Featuring double wall 5-ply construction for superior protection.",
+        shortDescription: "Premium high-gloss laminated boxes with vibrant offset printing.",
+        description: "Elevate your brand with our premium laminated corrugated boxes. Features a high-gloss finish that protects against moisture while providing a stunning visual appeal for retail and gift packaging.",
         dimensions: { length: 25, width: 25, height: 25 },
         specifications: {
             boardGrade: "Double Wall 5 Ply",
             style: "Die Cut",
-            surfaceCoating: "Laminated Coating",
+            surfaceCoating: "Laminated Gloss",
             materialThickness: "9 mm"
         },
         features: [
-            "High-gloss lamination",
-            "Vibrant color reproduction",
-            "Moisture resistant surface",
-            "Premium unboxing experience"
+            "Luxury glossy finish",
+            "High-definition color printing",
+            "Water-resistant outer layer",
+            "Superior structural integrity"
         ],
         applications: [
-            "Gifts & Crafts",
-            "Retail products",
-            "Luxury packaging",
-            "Promotional kits"
+            "Luxury Retail",
+            "Gift Sets",
+            "Electronic Gadgets",
+            "Premium Apparel"
         ]
     },
     {
@@ -36,26 +36,26 @@ export const products = [
         category: "Printed",
         price: 20,
         image: "/assets/images/products/7ply-printed.jpg",
-        shortDescription: "Heavy-duty 7-ply boxes with custom printing.",
-        description: "Designed for maximum strength, our 7-ply printed boxes combine industrial-grade durability with professional branding. Ideal for heavy machinery parts and export goods.",
+        shortDescription: "Heavy-duty triple-wall 7-ply boxes for maximum industrial protection.",
+        description: "Our 7-ply boxes are engineered for the most demanding industrial requirements. Triple-wall construction provides extreme stacking strength, making them ideal for heavy machinery and international exports.",
         dimensions: { length: 45, width: 35, height: 35 },
         specifications: {
             boardGrade: "Triple Wall 7 Ply",
-            style: "Regular Slotted Container",
-            printing: "Flexographic",
-            strength: "High Bursting Factor"
+            style: "Heavy Duty RSC",
+            printing: "Long-lasting Flexo",
+            strength: "Highest Bursting Factor"
         },
         features: [
-            "Extreme stacking strength",
-            "Custom branding options",
-            "Export quality standards",
-            "Shock absorbent layers"
+            "Extreme load capacity",
+            "Maximum shock absorption",
+            "Export-grade durability",
+            "Reinforced corner support"
         ],
         applications: [
-            "Heavy Machinery",
-            "Automotive Parts",
-            "Industrial Exports",
-            "Large Electronics"
+            "Heavy Machinery Parts",
+            "Automotive Components",
+            "Industrial Equipment",
+            "Overseas Shipping"
         ]
     },
     {
@@ -65,26 +65,26 @@ export const products = [
         category: "Printed",
         price: 15,
         image: "/assets/images/products/3ply-printed.jpg",
-        shortDescription: "Lightweight and cost-effective printed boxes.",
-        description: "Our 3-ply boxes are the perfect solution for lightweight shipping needs. Custom printing ensures your brand stays visible throughout the delivery process.",
+        shortDescription: "Cost-effective 3-ply boxes optimized for e-commerce and retail.",
+        description: "Perfect for lightweight shipping, our 3-ply printed boxes offer a balance of protection and speed. Specifically designed for high-volume e-commerce businesses needing consistent branding.",
         dimensions: { length: 20, width: 15, height: 10 },
         specifications: {
             boardGrade: "Single Wall 3 Ply",
-            style: "Self-Locking",
-            printing: "Offset / Flexo",
-            material: "Kraft Liner"
+            style: "Self-Locking Folder",
+            printing: "High-Speed Flexo",
+            material: "Virgin Kraft Liner"
         },
         features: [
-            "Eco-friendly materials",
-            "Easy to assemble",
-            "Cost-effective",
-            "Lightweight yet durable"
+            "Lightweight & Eco-friendly",
+            "Fast assembly design",
+            "Reliable tape adhesion",
+            "Smooth printing surface"
         ],
         applications: [
-            "E-commerce parcels",
-            "Cosmetics",
-            "Small electronics",
-            "Document storage"
+            "E-commerce Logistics",
+            "Books & Media",
+            "Cosmetic Products",
+            "Small Tech Accessories"
         ]
     },
     {
@@ -94,26 +94,26 @@ export const products = [
         category: "Printed",
         price: 35,
         image: "/assets/images/products/cardboard-printed.jpg",
-        shortDescription: "Vibrant printed cardboard boxes for retail.",
-        description: "High-quality cardboard construction paired with precision printing. These boxes are designed to elevate your brand presence on the shelf while providing reliable structural support.",
+        shortDescription: "High-finish cardboard boxes with custom branding.",
+        description: "Our printed cardboard boxes are designed to be a extension of your marketing. With crisp edge-to-edge printing, these boxes ensure your product stands out the moment it arrives at the customer's door.",
         dimensions: { length: 30, width: 22, height: 18 },
         specifications: {
             boardGrade: "Double Wall 5 Ply",
-            printing: "Full Color Offset",
-            material: "High-Grade Test Liner",
-            finish: "Varnish / Aqueous Coating"
+            printing: "4-Color Offset",
+            material: "White Top Liner",
+            finish: "Semi-Matte Aqueous"
         },
         features: [
-            "Photorealistic printing",
-            "Rigid cardboard structure",
-            "Wide customization range",
-            "Easy folding design"
+            "Precision die-cutting",
+            "Vivid brand colors",
+            "Moisture resistant coating",
+            "Rigid structural design"
         ],
         applications: [
-            "Consumer goods",
-            "Footwear",
-            "Pharma packaging",
-            "Tech accessories"
+            "Subscription Boxes",
+            "Brand Showcasing",
+            "Footwear Packaging",
+            "Consumer Goods"
         ]
     },
 
@@ -125,26 +125,26 @@ export const products = [
         category: "Plain",
         price: 20,
         image: "/assets/images/products/5ply-plain.jpg",
-        shortDescription: "Strong double-walled boxes for safe transit.",
-        description: "Our plain 5-ply boxes provide an extra layer of protection, making them ideal for shipping goods that require more than just a standard box. High stacking strength for warehouse efficiency.",
+        shortDescription: "Industrial-grade 5-ply boxes for safe warehousing.",
+        description: "Standard industrial boxes providing superior protection for medium-weight goods. Our 5-ply natural brown boxes are a staples in warehouses across India for their reliability and stacking strength.",
         dimensions: { length: 40, width: 30, height: 30 },
         specifications: {
             boardGrade: "Double Wall 5 Ply",
             style: "Regular Slotted",
-            color: "Natural Brown",
-            material: "Kraft Paper"
+            color: "Natural Industrial Brown",
+            material: "Recycled Kraft"
         },
         features: [
-            "High load capacity",
-            "Consistent dimensions",
-            "Tape-friendly surface",
-            "Impact resistant"
+            "Consistent structural strength",
+            "Tear-resistant edges",
+            "Standard pallet size",
+            "Bulk handling durability"
         ],
         applications: [
-            "Household appliances",
-            "Online retail",
-            "Moving supplies",
-            "Wholesale distribution"
+            "FMCG Logistics",
+            "Warehousing",
+            "Wholesale shipping",
+            "Moving & Storage"
         ]
     },
     {
@@ -154,26 +154,26 @@ export const products = [
         category: "Plain",
         price: 28,
         image: "/assets/images/products/rectangular-brown.jpg",
-        shortDescription: "Standard rectangular boxes for general purpose.",
-        description: "A staple in the packaging industry, our rectangular brown boxes are optimized for shipping efficiency and space management during logistics.",
+        shortDescription: "Standard brown boxes for everyday storage needs.",
+        description: "Versatile rectangular boxes for general storage and distribution. Made from high-quality natural kraft paper, these boxes offer high friction for stable stacking during transit.",
         dimensions: { length: 45, width: 25, height: 20 },
         specifications: {
             boardGrade: "Single Wall 3 Ply",
-            style: "Box with Lid",
-            material: "Natural Kraft Liner",
-            recyclability: "100%"
+            style: "Folder Type",
+            material: "High-Strength Liner",
+            recyclability: "100% Eco-Friendly"
         },
         features: [
-            "Universal utility",
-            "Tear resistant kraft",
-            "Secure edge protection",
-            "Standard pallet size"
+            "Pure eco-friendly material",
+            "Easy flat storage",
+            "Cost-efficient solution",
+            "Impact resistant fluting"
         ],
         applications: [
-            "Office archiving",
-            "Product storage",
-            "Logistics shipping",
-            "Retail stock"
+            "Document Management",
+            "Home Storage",
+            "Office Supply",
+            "Light Retail stock"
         ]
     },
     {
@@ -183,26 +183,26 @@ export const products = [
         category: "Plain",
         price: 12,
         image: "/assets/images/products/vegetable-box.jpg",
-        shortDescription: "Ventilated boxes for fresh agricultural produce.",
-        description: "Lightweight and breathable, these 3-ply boxes are specifically designed for the agriculture industry to maintain produce freshness during transport.",
+        shortDescription: "Ventilated trays for fresh agricultural transport.",
+        description: "Specifically designed for the agriculture sector, these ventilated 3-ply trays allow for air circulation, preventing moisture buildup and keeping produce fresh from farm to market.",
         dimensions: { length: 40, width: 30, height: 15 },
         specifications: {
             boardGrade: "Single Wall 3 Ply",
             style: "Ventilated Tray",
-            material: "Food-Grade Liner",
-            strength: "Wet Strength Adhesive"
+            material: "Food-Safe Liner",
+            strength: "Wet-Strength Adhesive"
         },
         features: [
-            "Airflow ventilation holes",
-            "Stack-safe corners",
-            "Safe for direct food contact",
-            "Rapid assembly"
+            "Airflow circulation holes",
+            "Reinforced base for heavy loads",
+            "Stack-safe tray design",
+            "Completely biodegradable"
         ],
         applications: [
-            "Fresh Vegetables",
-            "Fruits Export",
-            "Greenhouse produce",
-            "Farmer markets"
+            "Farm Fresh Produce",
+            "Cold Storage Transport",
+            "Fruit Exports",
+            "Wholesale Markets"
         ]
     },
 
@@ -214,26 +214,26 @@ export const products = [
         category: "Specialty",
         price: 8,
         image: "/assets/images/products/mono-carton.jpg",
-        shortDescription: "Thin, high-finish cartons for primary packaging.",
-        description: "Specialized mono cartons for primary product packaging. These are designed with premium finishes and intricate die-cuts for a high-end consumer unboxing experience.",
+        shortDescription: "Thin, premium finish cartons for primary packaging.",
+        description: "Precision-engineered mono cartons for the pharmaceutical and cosmetic industries. Features clean die-cutting and high-end surface finishes for a professional retail presentation.",
         dimensions: { length: 12, width: 8, height: 4 },
         specifications: {
-            type: "FBB / Duplex Board",
-            gsm: "250-450 GSM",
-            finish: "UV Coating / Embossing",
-            printing: "Multicolor UV Offset"
+            type: "Duplex / FBB Board",
+            gsm: "300-400 GSM",
+            finish: "UV Drip / Spot Coating",
+            printing: "High-Precision Offset"
         },
         features: [
-            "Intricate die-cutting",
-            "High aesthetic value",
-            "Slim profile",
-            "Luxury finishing options"
+            "Precision folding lines",
+            "High print resolution",
+            "Variety of coating options",
+            "Efficient automated packing"
         ],
         applications: [
-            "Pharma Primary Packaging",
-            "Cosmetic Units",
-            "Personal Care",
-            "Luxury Sweets"
+            "Pharmaceutical Units",
+            "Cosmetic Packaging",
+            "Healthcare Products",
+            "Confectionery"
         ]
     },
     {
@@ -243,26 +243,26 @@ export const products = [
         category: "Specialty",
         price: 18,
         image: "/assets/images/products/craft-box.jpg",
-        shortDescription: "Eco-friendly craft paper boxes for gifts.",
-        description: "Embrace a rustic and organic look with our craft packaging boxes. These are 100% biodegradable and perfect for brands focusing on sustainability and natural products.",
+        shortDescription: "Sustainable rustic craft paper boxes for eco-conscious brands.",
+        description: "Capture an organic feel with our kraft packaging boxes. Made from 100% unbleached natural fibers, these boxes are perfect for brands prioritizing sustainability and a 'handmade' aesthetic.",
         dimensions: { length: 15, width: 15, height: 15 },
         specifications: {
-            material: "Unbleached Craft Paper",
-            style: "Square Box",
-            locking: "Tuck-in",
-            texture: "Organic Fiber Finish"
+            material: "Natural Unbleached Craft",
+            style: "Square Folder",
+            locking: "Secure Tuck-in",
+            texture: "Raw Fiber Finish"
         },
         features: [
-            "100% Biodegradable",
-            "Rustic natural look",
-            "No chemical bleaching",
-            "Compostable"
+            "Completely compostable",
+            "Unique organic texture",
+            "No chemical bleach",
+            "Strong structural design"
         ],
         applications: [
             "Organic Skincare",
-            "Handmade Crafts",
+            "Eco-Gifts",
             "Sustainable Fashion",
-            "Eco-gifts"
+            "Handcrafted Jewelry"
         ]
     },
     {
@@ -272,26 +272,26 @@ export const products = [
         category: "Specialty",
         price: 45,
         image: "/assets/images/products/wine-box.jpg",
-        shortDescription: "Secure bottle transport with internal dividers.",
-        description: "Specifically engineered for glass bottle protection. The internal divider system ensures no contact between bottles, preventing breakage during the roughest handling.",
+        shortDescription: "Secure bottle shippers with internal protective dividers.",
+        description: "Engineered for the safest transport of glass bottles. Our wine boxes feature a scoring-sheet partition system that locks each bottle in place, minimizing the risk of breakage during shipping.",
         dimensions: { length: 35, width: 25, height: 35 },
         specifications: {
             boardGrade: "Double Wall 5 Ply",
-            style: "Partitioned Box",
-            material: "High-Strength Kraft",
-            dividerMaterial: "Scored Sheets"
+            style: "Partitioned Shipper",
+            material: "Heavy-Duty Craft",
+            dividerMaterial: "Multi-layered Scored Sheets"
         },
         features: [
-            "Breakage prevention system",
-            "Easy carry handles",
-            "Reusable design",
-            "Impact resistant"
+            "Advanced impact protection",
+            "Interlocking dividers",
+            "Reinforced handle cut-outs",
+            "Moisture resistant base"
         ],
         applications: [
-            "Wine & Spirits",
-            "Bottled Beverages",
-            "Glass jar sets",
-            "Chemical bottles"
+            "Wine & Spirits Units",
+            "Craft Beer Packs",
+            "Gourmet Glass Jars",
+            "Premium Vinegars"
         ]
     }
 ];
