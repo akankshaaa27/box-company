@@ -49,7 +49,7 @@ const Home = () => {
                 {/* Hero Background Image with Overlay */}
                 <div className="absolute inset-0 z-0">
                     <img
-                        src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?q=80&w=2000&auto=format&fit=crop"
+                        src="/assets/images/hero.jpg"
                         className="w-full h-full object-cover"
                         alt="Corrugated Box Warehouse"
                     />
@@ -112,8 +112,8 @@ const Home = () => {
                         <motion.div {...fadeInUp} className="relative">
                             <div className="relative rounded-3xl overflow-hidden shadow-2xl">
                                 <img
-                                    src="https://images.unsplash.com/photo-1595246140625-573b715d11dc?q=80&w=1000&auto=format&fit=crop"
-                                    alt="Packaging Factory"
+                                    src="/assets/images/feature.jpg"
+                                    alt="Quality Manufacturing"
                                     className="w-full h-[500px] object-cover"
                                 />
                             </div>

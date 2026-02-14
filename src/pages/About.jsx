@@ -57,7 +57,7 @@ const About = () => {
                         </motion.div>
                         <motion.div {...fadeInUp} className="relative">
                             <img
-                                src="https://images.unsplash.com/photo-1580674285054-bed31e145f59?q=80&w=1000&auto=format&fit=crop"
+                                src="/assets/images/facility.jpg"
                                 alt="Our Facility"
                                 className="rounded-3xl shadow-2xl"
                             />

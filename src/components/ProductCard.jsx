@@ -14,6 +14,9 @@ const ProductCard = ({ product }) => {
                     src={product.image}
                     alt={product.name}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                    onError={(e) => {
+                        e.target.src = '/assets/images/hero.jpg';
+                    }}
                 />
                 <div className="absolute top-4 left-4 bg-primary text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
                     {product.category}

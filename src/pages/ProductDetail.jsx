@@ -76,6 +76,9 @@ const ProductDetail = () => {
                                         src={product.image}
                                         alt={product.name}
                                         className="w-full h-full object-cover"
+                                        onError={(e) => {
+                                            e.target.src = '/assets/images/hero.jpg';
+                                        }}
                                     />
                                 ) : (
                                     <Box3D
@@ -108,7 +111,14 @@ const ProductDetail = () => {
                                     onClick={() => setViewMode('image')}
                                     className={`aspect-square rounded-2xl overflow-hidden cursor-pointer border-2 transition-all ${viewMode === 'image' ? 'border-primary' : 'border-transparent opacity-60 hover:opacity-100'}`}
                                 >
-                                    <img src={product.image} className="w-full h-full object-cover" alt="Thumb" />
+                                    <img
+                                        src={product.image}
+                                        className="w-full h-full object-cover"
+                                        alt={`${product.name} Thumbnail`}
+                                        onError={(e) => {
+                                            e.target.src = '/assets/images/hero.jpg';
+                                        }}
+                                    />
                                 </div>
                                 <div
                                     onClick={() => setViewMode('3d')}
@@ -118,7 +128,14 @@ const ProductDetail = () => {
                                     <span className="text-[10px] font-bold uppercase tracking-wider text-primary">3D Model</span>
                                 </div>
                                 <div className="aspect-square rounded-2xl overflow-hidden bg-gray-100 border border-gray-100 cursor-help opacity-40">
-                                    <img src={product.image} className="w-full h-full object-cover grayscale" alt="Thumb" />
+                                    <img
+                                        src={product.image}
+                                        className="w-full h-full object-cover grayscale"
+                                        alt={`${product.name} Alternative View`}
+                                        onError={(e) => {
+                                            e.target.src = '/assets/images/hero.jpg';
+                                        }}
+                                    />
                                 </div>
                                 <div className="aspect-square rounded-2xl bg-industrial-light flex flex-col items-center justify-center text-primary cursor-pointer hover:bg-primary/5 transition-colors">
                                     <Share2 className="w-6 h-6 mb-2" />
@@ -255,7 +272,14 @@ const ProductDetail = () => {
                         {relatedProducts.map(p => (
                             <Link to={`/products/${p.slug}`} key={p.id} className="group">
                                 <div className="aspect-video rounded-2xl overflow-hidden mb-4 shadow-sm group-hover:shadow-lg transition-all">
-                                    <img src={p.image} alt={p.name} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                                    <img
+                                        src={p.image}
+                                        alt={p.name}
+                                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                                        onError={(e) => {
+                                            e.target.src = '/assets/images/hero.jpg';
+                                        }}
+                                    />
                                 </div>
                                 <h4 className="text-lg font-bold group-hover:text-primary transition-colors">{p.name}</h4>
                                 <p className="text-sm text-gray-500 font-medium">See specs <ArrowLeft className="w-3 h-3 inline rotate-180" /></p>
