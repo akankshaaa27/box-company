@@ -5,14 +5,16 @@ import { motion } from 'framer-motion';
 import { products } from '../data/products';
 import {
     ArrowLeft, CheckCircle, Package, Send, ShieldPlus,
-    Truck, HelpCircle, ChevronRight, Share2
+    Truck, HelpCircle, ChevronRight, Share2, Box, Image as ImageIcon
 } from 'lucide-react';
+import Box3D from '../components/Box3D';
 
 const ProductDetail = () => {
     const { slug } = useParams();
     const navigate = useNavigate();
     const product = products.find(p => p.slug === slug);
     const [formStatus, setFormStatus] = useState(null);
+    const [viewMode, setViewMode] = useState('image'); // 'image' or '3d'
 
     if (!product) {
         return (
@@ -66,20 +68,58 @@ const ProductDetail = () => {
                             animate={{ opacity: 1, x: 0 }}
                             className="space-y-6"
                         >
-                            <div className="aspect-square rounded-[2rem] overflow-hidden bg-gray-100 shadow-xl border border-gray-100">
-                                <img
-                                    src={product.image}
-                                    alt={product.name}
-                                    className="w-full h-full object-cover"
-                                />
+                            <div className="relative aspect-square rounded-[2rem] overflow-hidden bg-gray-50 shadow-xl border border-gray-100 flex items-center justify-center">
+                                {viewMode === 'image' ? (
+                                    <motion.img
+                                        initial={{ opacity: 0 }}
+                                        animate={{ opacity: 1 }}
+                                        src={product.image}
+                                        alt={product.name}
+                                        className="w-full h-full object-cover"
+                                    />
+                                ) : (
+                                    <Box3D
+                                        length={product.dimensions?.length || 30}
+                                        width={product.dimensions?.width || 20}
+                                        height={product.dimensions?.height || 25}
+                                        texture={product.category === 'Printed' ? product.image : null}
+                                    />
+                                )}
+
+                                {/* View Mode Toggles */}
+                                <div className="absolute bottom-6 right-6 flex space-x-2">
+                                    <button
+                                        onClick={() => setViewMode('image')}
+                                        className={`p-3 rounded-xl transition-all shadow-lg ${viewMode === 'image' ? 'bg-primary text-white' : 'bg-white text-gray-400 hover:text-primary'}`}
+                                    >
+                                        <ImageIcon className="w-5 h-5" />
+                                    </button>
+                                    <button
+                                        onClick={() => setViewMode('3d')}
+                                        className={`p-3 rounded-xl transition-all shadow-lg ${viewMode === '3d' ? 'bg-primary text-white' : 'bg-white text-gray-400 hover:text-primary'}`}
+                                    >
+                                        <Box className="w-5 h-5" />
+                                    </button>
+                                </div>
                             </div>
 
                             <div className="grid grid-cols-4 gap-4">
-                                {[1, 2, 3].map(i => (
-                                    <div key={i} className="aspect-square rounded-2xl overflow-hidden bg-gray-100 border border-gray-100 cursor-pointer hover:border-primary transition-all">
-                                        <img src={product.image} className="w-full h-full object-cover opacity-60 hover:opacity-100 transition-opacity" alt="Thumb" />
-                                    </div>
-                                ))}
+                                <div
+                                    onClick={() => setViewMode('image')}
+                                    className={`aspect-square rounded-2xl overflow-hidden cursor-pointer border-2 transition-all ${viewMode === 'image' ? 'border-primary' : 'border-transparent opacity-60 hover:opacity-100'}`}
+                                >
+                                    <img src={product.image} className="w-full h-full object-cover" alt="Thumb" />
+                                </div>
+                                <div
+                                    onClick={() => setViewMode('3d')}
+                                    className={`aspect-square rounded-2xl flex flex-col items-center justify-center cursor-pointer border-2 transition-all ${viewMode === '3d' ? 'border-primary bg-primary/5' : 'border-transparent bg-gray-50 opacity-60 hover:opacity-100'}`}
+                                >
+                                    <Box className="w-6 h-6 text-primary mb-1" />
+                                    <span className="text-[10px] font-bold uppercase tracking-wider text-primary">3D Model</span>
+                                </div>
+                                <div className="aspect-square rounded-2xl overflow-hidden bg-gray-100 border border-gray-100 cursor-help opacity-40">
+                                    <img src={product.image} className="w-full h-full object-cover grayscale" alt="Thumb" />
+                                </div>
                                 <div className="aspect-square rounded-2xl bg-industrial-light flex flex-col items-center justify-center text-primary cursor-pointer hover:bg-primary/5 transition-colors">
                                     <Share2 className="w-6 h-6 mb-2" />
                                     <span className="text-[10px] font-bold uppercase tracking-wider">Share</span>
